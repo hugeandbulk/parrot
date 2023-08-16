@@ -1,6 +1,8 @@
 # Parrot
 > 16<sup>th</sup> August, 2023.
 
+**Parrot, Inc.**
+
 Parrot — gurgle
 
 `Common binary number lengths`
