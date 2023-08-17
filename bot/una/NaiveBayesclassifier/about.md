@@ -34,17 +34,17 @@ Advantages and Disadvantages of Gaussian Naive Bayes
 
 Advantages:
 
-GNB is a simple and easy-to-understand algorithm that is relatively easy to implement.
-It is computationally efficient and can handle large datasets with high dimensionality.
-GNB works well with small and medium-sized datasets and is especially effective when the number of features is relatively small compared to the number of observations.
-GNB performs well even in cases where the independence assumption of features does not hold exactly.
-GNB can handle missing data values by ignoring them during model building.
+- GNB is a simple and easy-to-understand algorithm that is relatively easy to implement.
+- It is computationally efficient and can handle large datasets with high dimensionality.
+- GNB works well with small and medium-sized datasets and is especially effective when the number of features is relatively small compared to the number of observations.
+- GNB performs well even in cases where the independence assumption of features does not hold exactly.
+- GNB can handle missing data values by ignoring them during model building.
+
 Disadvantages:
 
-GNB assumes that the features are independent of each other, which may not be true in some cases. This can lead to inaccurate results.
-GNB cannot handle correlated features or interactions between features. In such cases, a more sophisticated algorithm may be required.
-GNB is not suitable for tasks that require probabilities to be calibrated. The algorithm often produces probabilities that are not well-calibrated, which can make it unsuitable for some applications.
-GNB can be sensitive to outliers in the data. Outliers can affect the mean and variance of the feature values, which can lead to inaccurate results.
-GNB is not suitable for handling text or image data, where the feature space can be very large and the features are not necessarily independent.
-Overall, GNB is a simple and efficient algorithm that can work well in many classification problems, especially with small to medium-sized datasets. However, it may not be the best choice for problems with complex or highly correlated features, or those that require well-calibrated probabilities.
-
+- GNB assumes that the features are independent of each other, which may not be true in some cases. This can lead to inaccurate results.
+- GNB cannot handle correlated features or interactions between features. In such cases, a more sophisticated algorithm may be required.
+- GNB is not suitable for tasks that require probabilities to be calibrated. The algorithm often produces probabilities that are not well-calibrated, which can make it unsuitable for some applications.
+- GNB can be sensitive to outliers in the data. Outliers can affect the mean and variance of the feature values, which can lead to inaccurate results.
+- GNB is not suitable for handling text or image data, where the feature space can be very large and the features are not necessarily independent.
+- Overall, GNB is a simple and efficient algorithm that can work well in many classification problems, especially with small to medium-sized datasets. However, it may not be the best choice for problems with complex or highly correlated features, or those that require well-calibrated probabilities.
