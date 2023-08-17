@@ -27,3 +27,25 @@ It is used in medical data classification. It can be used in real-time predictio
 Is naive Bayes a clustering algorithm?
 
 Naive Bayes inference is a very common technique for performing data classification, but it's not generally known that Naive Bayes can also be used for data clustering.
+
+Which algorithm is better than naive Bayes?
+
+In the former case, Naive Bayes is probably the better choice, while Decision Trees will most likely outperform it in the latter. Are we trying to predict a class that appears very rarely in a data set? If that's the case, it will likely be pruned out using the decision tree, and we won't get the desirable results.
+
+What is a real life example of naive Bayes?
+
+Naive Bayes is mostly used in real-world applications like sentiment analysis, spam filtering, recommendation systems, etc. They are extremely fast and easy to implement as compared to other machine learning models.
+
+What is the formula for Bayes classifier?
+
+The simple form of the calculation for Bayes Theorem is as follows: P(A|B) = P(B|A) * P(A) / P(B)
+
+Is naive Bayes a linear classifier?
+
+Naive Bayes is a linear classifier
+
+The boundary of the ellipsoids indicate regions of equal probabilities P(x|y). The red decision line indicates the decision boundary where P(y=1|x)=P(y=2|x).
+
+Is Naive Bayes supervised or unsupervised Why?
+
+Naive Bayes is a supervised learning algorithm used for classification tasks. Hence, it is also called Naive Bayes Classifier. As other supervised learning algorithms, naive bayes uses features to make a prediction on a target variable.
