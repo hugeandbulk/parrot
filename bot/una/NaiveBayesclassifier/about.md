@@ -91,3 +91,48 @@ Requires a large amount of training data to estimate the parameters accurately.
 Can be sensitive to irrelevant features, leading to overfitting.
 
 Multinomial Naive Bayes is a powerful and widely used algorithm for text classification tasks. It works well with high-dimensional sparse data and can handle a large number of classes. However, it has some limitations and assumptions that need to be considered when applying the algorithm in practice.
+
+**3. Bernoulli Naive Bayes**
+
+Bernoulli Naive Bayes is a classification algorithm that is based on the Bayes' theorem. It is a probabilistic model that predicts the probability of a sample belonging to a particular class. In the case of Bernoulli Naive Bayes, it is used for binary classification problems, where the target variable can take only two values, usually 0 or 1.
+
+The algorithm assumes that each feature is independent of all other features and follows a Bernoulli distribution. This means that each feature can only take two possible values, 0 or 1, and that the probability of each feature being 1 is the same for all samples.
+
+The algorithm works by first calculating the prior probability of each class, which is the probability of a sample belonging to that class without considering any features. This is calculated as the number of samples in that class divided by the total number of samples.
+
+Next, for each feature, the algorithm calculates the likelihood of that feature given each class. This is done by calculating the probability of that feature being 1 in the samples belonging to that class.
+
+Finally, the algorithm calculates the posterior probability of each class given the features of the sample using Bayes' theorem. The posterior probability is the probability of a sample belonging to a particular class given its features. The class with the highest posterior probability is predicted as the class for the sample.
+
+The mathematical formula for Bernoulli Naive Bayes is as follows:
+
+P(y|x) = P(y) * ∏ P(xi|y)
+
+Where:
+
+- P(y|x) is the posterior probability of class y given the features x
+- P(y) is the prior probability of class y
+- P(xi|y) is the likelihood of feature i given class y
+- ∏ is the product symbol
+
+To avoid the problem of zero probabilities, which can occur if a feature is absent from the training data for a particular class, a smoothing technique called Laplace smoothing is used. This involves adding a small constant value to the numerator and denominator of each likelihood calculation.
+
+Bernoulli Naive Bayes is a simple and efficient algorithm that works well for text classification problems and other problems where the features are binary. However, it may not perform as well as other algorithms when the features are not independent or when the data has a large number of features.
+
+Advantages and Disadvantages of Bernoulli Naive Bayes
+
+Advantages:
+
+- Simplicity: Bernoulli Naive Bayes is a simple algorithm that is easy to understand and implement. It is also computationally efficient, making it a good choice for large datasets.
+- Works well with binary data: Bernoulli Naive Bayes works well with binary data, which is data that only takes on two possible values (such as 0 and 1). It is particularly useful for text classification problems where the presence or absence of certain words is used as features.
+- Requires less training data: Bernoulli Naive Bayes requires less training data compared to other classification algorithms, making it a good choice when the dataset is small.
+- Robust to irrelevant features: Bernoulli Naive Bayes is robust to irrelevant features, meaning that it can still produce accurate results even when some of the features are not relevant to the classification problem.
+
+Disadvantages:
+
+- Assumes independence between features: Bernoulli Naive Bayes assumes that the features are independent of each other, which is not always the case in real-world datasets. This can lead to inaccurate results.
+- Cannot handle continuous data: Bernoulli Naive Bayes cannot handle continuous data, which is data that takes on a continuous range of values. This can be a problem when dealing with datasets that contain continuous features.
+- Limited expressive power: Bernoulli Naive Bayes has limited expressive power compared to other classification algorithms. This means that it may not be able to capture complex relationships between the features and the target variable.
+- Requires feature selection: Bernoulli Naive Bayes requires feature selection, which means that only relevant features should be used as input. This can be a time-consuming process and may require domain knowledge.
+
+With this article at OpenGenus, you must have the complete idea of different Naive Bayes algorithms.
