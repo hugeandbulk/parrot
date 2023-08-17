@@ -4,6 +4,7 @@ Parrot Name — Una (उना)
 
 noun. a female given name: from a Latin word meaning “one.”
 
+**"_Let's gurgle together_."**
 
 Parrots:— talk, screech, gurgle, trill, whistle, and squawk.
 
