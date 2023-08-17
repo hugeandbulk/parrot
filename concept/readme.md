@@ -24,3 +24,5 @@ The user of parrot can send `mails` to the another user or recipient.
 **Time line**, memory 
 
 monthly and annual
+
+**!** Coined the philosophy — by Prabhat Kumar. 
