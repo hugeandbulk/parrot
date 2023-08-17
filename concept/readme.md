@@ -7,7 +7,7 @@ Parrots:— talk, screech, gurgle, trill, whistle, and squawk.
 The user of parrot can send `mails` to the another user or recipient. 
 
 **Work for:—** n no. of post
-- `mails`
+- `mails` **_**
 - `talk`
 - `screech`
 - `gurgle`
