@@ -6,6 +6,15 @@ Parrots:— talk, screech, gurgle, trill, whistle, and squawk.
 
 The user of parrot can send `mails` to the another user or recipient. 
 
+**Work for:—**
+- `mails`
+- `talk`
+- `screech`
+- `gurgle`
+- `trill`
+- `whistle`
+- `squawk`
+
 **Time line**
 
 monthly and annual
