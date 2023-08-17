@@ -49,3 +49,17 @@ The boundary of the ellipsoids indicate regions of equal probabilities P(x|y). T
 Is Naive Bayes supervised or unsupervised Why?
 
 Naive Bayes is a supervised learning algorithm used for classification tasks. Hence, it is also called Naive Bayes Classifier. As other supervised learning algorithms, naive bayes uses features to make a prediction on a target variable.
+
+What is the zero probability problem in Naive Bayes?
+
+The zero-frequency problem
+
+One of the disadvantages of Naïve-Bayes is that if you have no occurrences of a class label and a certain attribute value together then the frequency-based probability estimate will be zero. And this will get a zero when all the probabilities are multiplied.
+
+What are the other names for naive Bayes?
+
+In the statistics literature, naive Bayes models are known under a variety of names, including simple Bayes and independence Bayes. All these names reference the use of Bayes' theorem in the classifier's decision rule, but naive Bayes is not (necessarily) a Bayesian method.
+
+Is Naive Bayes only for binary classification?
+
+Naive Bayes is a classification algorithm for binary (two-class) and multi-class classification problems. The technique is easiest to understand when described using binary or categorical input values.
