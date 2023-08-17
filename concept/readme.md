@@ -21,6 +21,6 @@ The user of parrot can send `mails` to the another user or recipient.
 - `whistle`
 - `squawk`
 
-**Time line**
+**Time line**, memory 
 
 monthly and annual
