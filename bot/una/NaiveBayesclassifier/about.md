@@ -7,7 +7,8 @@ There are three main types of Naive Bayes classifiers:
 2. Multinomial Naive Bayes
 3. Bernoulli Naive Bayes
 
-1. Gaussian Naive Bayes
+
+**1. Gaussian Naive Bayes**
 
 Gaussian Naive Bayes is a machine learning algorithm that is commonly used for classification problems. It is a probabilistic algorithm that makes predictions based on the probability of each possible outcome. In this algorithm, the term 'Naive' is used because it makes a strong assumption that all features are independent of each other, given the class label. This means that the algorithm considers each feature individually and assumes that they contribute equally to the probability of the class.
 
