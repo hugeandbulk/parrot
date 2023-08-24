@@ -1,5 +1,7 @@
 **We have a bot, (parrot); the famous name is — Una (उना).**
 
+command : `@una`
+
 It's second bot, invented by Infinity and Prabhat Kumar.
 
 The bot is important and answerable. It works to classify parrot's concept; each and every time. 
