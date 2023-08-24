@@ -1,8 +1,6 @@
 # Parrot
 > 16<sup>th</sup> August, 2023.
 
-**Parrot, Inc.**
-
 **"_Let's gurgle together_."**
 
 Parrot — 
@@ -32,3 +30,5 @@ The vocal organ that enables a parrot to make sounds is called the syrinx which 
 What do parrots say when they talk?
 
 The “talking” we hear from parrots is mimicry of all sorts of sounds. They imitate many things, from spoken words to creaking doors to barking dogs. Most parrots are simply mimicking their owners. They don't really know what they're saying.
+
+**Parrot, Inc.**
