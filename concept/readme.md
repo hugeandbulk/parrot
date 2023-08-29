@@ -1,5 +1,27 @@
 **concept:**
 
+p) — is directive or message directive. 
+
+p/ — for the account creation purpose. 
+
+**e.g.**
+
+**p)** You're username 
+
+or 
+
+**p/** You're username 
+
+p) iamsenior
+
+**p)** — it can count, n number of users worldwide or customers. 
+
+p) una — is a bot account. 
+
+p) parrot, is a company account. 
+
+——
+
 Parrot Name — Una (उना) 
 
 noun. a female given name: from a Latin word meaning “one.”
